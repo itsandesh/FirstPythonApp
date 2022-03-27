@@ -68,26 +68,49 @@
 ##################################################################################################################
 
 # Arthemetic operation
-
-print(8+3)
-print(9-8)
-print(2*200)
-print(2/3)
-print(5%2)
-print(2**3)
-print(5//2)
-print(7//3)
-
-x = 10
-x = x + 1
-x += 1
-print (x)
-
-print (2+3*5-4)
-print((2*3)*5-4/2**2)
+#
+# print(8+3)
+# print(9-8)
+# print(2*200)
+# print(2/3)
+# print(5%2)
+# print(2**3)
+# print(5//2)
+# print(7//3)
+#
+# x = 10
+# x = x + 1
+# x += 1
+# print (x)
+#
+# print (2+3*5-4)
+# print((2*3)*5-4/2**2)
 
 # Braket >> ** >> division >> multiply >>plus >> minus
 
 ##################################################################################################################
+
+#  if & else
+
+# is_hot = False
+# if is_hot==True:
+#     print('its a hot day')
+#     print('drinl plenty of water')
+# elif is_hot==False:
+#     print("its a cold day ")
+#     print("wear warm clothes ")
+# else:
+#     print("It's neither hot nor cold")
+#     print("Enjoy your day")
+
+##################################################################################################################
+
+a = 10
+b = 20
+c = input("Enter the number")
+if int(c)>a and int(c)<b:
+    print("Number is  valid ")
+else:
+    print("invalid")
 
 
