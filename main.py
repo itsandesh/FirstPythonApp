@@ -86,7 +86,7 @@
 # print (2+3*5-4)
 # print((2*3)*5-4/2**2)
 
-# Braket >> ** >> division >> multiply >>plus >> minus
+# Bracket >> ** >> division >> multiply >>plus >> minus
 
 ##################################################################################################################
 
@@ -95,7 +95,7 @@
 # is_hot = False
 # if is_hot==True:
 #     print('its a hot day')
-#     print('drinl plenty of water')
+#     print('drink plenty of water')
 # elif is_hot==False:
 #     print("its a cold day ")
 #     print("wear warm clothes ")
@@ -157,18 +157,129 @@
 
 
 ##################################################################################################################
-secret_number = 3
-guess_limit = 3
-guess_count = 0
+# secret_number = 3
+# guess_limit = 3
+# guess_count = 0
+#
+# while guess_count < guess_limit:
+#     guess = int(input('Enter your guess number'))
+#     guess_count= guess_count +1
+#     if guess == secret_number:
+#         print('Congratulations you are the winner')
+#         break
+#     else:
+#         print('Incorrect , you have', guess_limit-guess_count,'guesses left')
+# else:
+#     exit('You failed!!')
 
-while guess_count < guess_limit:
-    guess = int(input('Enter your guess number'))
-    guess_count= guess_count +1
-    if guess == secret_number:
-        print('Congratulations you are the winner')
-        break
-    else:
-        print('Incorrect , you have', guess_limit-guess_count,'guesses left')
-else:
-    exit('You failed!!')
+#######################################################################################################################
+#
+# command_count = 0
+# while command_count == 0:
+#
+#     command = input('''
+#     Enter  1 to start the car
+#     Enter  2 to stop the car
+#     Enter  3 for help
+#     Enter  4 to quit  : ''')
+#     command_count  += 1
+#     if int(command) == 1:
+#         print('Your car is started ')
+#     elif int(command) == 2:
+#         print('Your car is stopped ')
+#     elif int(command) == 3:
+#         print('''
+#               Enter  1 to start the car
+#               Enter  2 to stop the car
+#               Enter  4 to quit  ''')
+#     elif int(command) == 4:
+#         exit('you quit')
+#     else:
+#         print('Please Enter the correct Number')
+#
+# while command_count == 1:
+#     command = input('''
+#     Enter  1 to start the car
+#     Enter  2 to stop the car
+#     Enter  3 for help
+#     Enter  4 to quit  : ''')
+#     if int(command) == 1:
+#         print('You fool your car is already started  ')
+#     elif int(command) == 2:
+#         print('Your car is already  stopped ')
+#     elif int(command) == 3:
+#         print('''
+#         Enter  1 to start the car
+#         Enter  2 to stop the car
+#         Enter  4 to quit  ''')
+#     elif int(command) == 4:
+#         exit('you quit')
+#     else:
+#         print('Please Enter the correct Number')
+#
+#
+#
+# Started= False
+# while  True:
+#
+#     command = input('''
+#     Enter  1 to start the car
+#     Enter  2 to stop the car
+#     Enter  3 for help
+#     Enter  4 to quit  : ''')
+#
+#     if int(command) == 1:
+#         if Started:
+#             print('Car has been already started')
+#         else:
+#             print('Car started')
+#             Started = True
+#
+#     elif int(command) == 2:
+#         if not Started:
+#             print('Car has been already stoppd')
+#         else:
+#             print('Car stopped')
+#             Started = False
+#
+#     elif int(command) == 3:
+#         print('''
+#               Enter  1 to start the car
+#               Enter  2 to stop the car
+#               Enter  4 to quit  ''')
+#     elif int(command) == 4:
+#         exit('you quit')
+#     else:
+#         print('Please Enter the correct Number')
 
+
+
+# for i in 'student':
+#     print(i)
+#
+# for i in [1,2,3,4,5,6]:
+#     print(i)
+#
+# for i in range(1 ,5,8):
+#     print(i)
+
+# sum = 0
+# for i in [1000,2222,44444,4444]:
+#     sum += i
+#     print(sum)
+#
+# for x in range(5):
+#     for y in range(3):
+#         print(f'{x},{y}')
+
+
+
+list1 = [1,2,3,4,5,6,7,8,9,8,7,6,5,4,3,2,1  ]
+# for i in list1:
+#     print('x'*i)
+
+for num in list1:
+    Stri=''
+    for i in range(num):
+        Stri += 'x'
+    print(Stri)
