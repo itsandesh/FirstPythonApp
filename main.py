@@ -272,14 +272,35 @@
 #     for y in range(3):
 #         print(f'{x},{y}')
 
+#######################################################################################################################
 
+#Make Nepal Flag
 
-list1 = [1,2,3,4,5,6,7,8,9,8,7,6,5,4,3,2,1  ]
-# for i in list1:
-#     print('x'*i)
-
+list1 = [1,3,5,6,7,9,]
 for num in list1:
     Stri=''
     for i in range(num):
         Stri += 'x'
     print(Stri)
+for num in list1:
+    Stri=''
+    for i in range(num):
+        Stri += 'x'
+    print(Stri)
+
+
+
+
+
+#######################################################################################################################
+
+# list1 = [1,2,3,4,5,6,7,8,9,8,7,6,5,4,3,2,1  ]
+# # for i in list1:
+# #     print('x'*i)
+#
+# for num in list1:
+#     Stri=''
+#     for i in range(num):
+#         Stri += 'x'
+#     print(Stri)
+
