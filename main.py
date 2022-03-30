@@ -276,17 +276,17 @@
 
 #Make Nepal Flag
 
-list1 = [1,3,5,6,7,9,]
-for num in list1:
-    Stri=''
-    for i in range(num):
-        Stri += 'x'
-    print(Stri)
-for num in list1:
-    Stri=''
-    for i in range(num):
-        Stri += 'x'
-    print(Stri)
+# list1 = [1,3,5,6,7,9,]
+# for num in list1:
+#     Stri=''
+#     for i in range(num):
+#         Stri += 'x'
+#     print(Stri)
+# for num in list1:
+#     Stri=''
+#     for i in range(num):
+#         Stri += 'x'
+#     print(Stri)
 
 
 
@@ -304,3 +304,10 @@ for num in list1:
 #         Stri += 'x'
 #     print(Stri)
 
+#######################################################################################################################
+
+#Wap to create a QR code.
+
+import qrcode
+img = qrcode.make("https://youtu.be/c0yEm1BtBmY")
+img.show("BMS.jpg")
