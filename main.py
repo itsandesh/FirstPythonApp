@@ -308,6 +308,22 @@
 
 #Wap to create a QR code.
 
-import qrcode
-img = qrcode.make("https://youtu.be/c0yEm1BtBmY")
-img.show("BMS.jpg")
+# import qrcode
+# img = qrcode.make("https://youtu.be/c0yEm1BtBmY")
+# img.show("BMS.jpg")
+
+#######################################################################################################################
+
+
+from datetime import datetime
+
+# now() method is used to
+# get object containing
+# current date & time.
+now_method = datetime.now()
+
+# strftime() method used to
+# create a string representing
+# the current time.
+currentTime = now_method.strftime("%H:%M") #  %S to get the seconds value
+print("Your current Time is ", currentTime,'O clock')
