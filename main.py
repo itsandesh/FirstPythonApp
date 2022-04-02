@@ -315,15 +315,47 @@
 #######################################################################################################################
 
 
-from datetime import datetime
+# from datetime import datetime
+#
+# # now() method is used to
+# # get object containing
+# # current date & time.
+# now_method = datetime.now()
+#
+# # strftime() method used to
+# # create a string representing
+# # the current time.
+# currentTime = now_method.strftime("%H:%M") #  %S to get the seconds value
+# print("Your current Time is ", currentTime,'O clock')
 
-# now() method is used to
-# get object containing
-# current date & time.
-now_method = datetime.now()
+#########################################Lists#############################################################################
 
-# strftime() method used to
-# create a string representing
-# the current time.
-currentTime = now_method.strftime("%H:%M") #  %S to get the seconds value
-print("Your current Time is ", currentTime,'O clock')
+# list1 = [1,2,3,4,5,8]
+# for item in list1:
+#     print(item)
+#     # print(list1[item])
+
+# list1 = [1,2,3,4,5,8]
+# max = 0
+# max = list1[0]
+# for item in list1:
+#     if item>max:
+#         max=item
+# print(max)
+
+###################################################    Matrix         ###################################################################
+
+
+
+# matrix =[[1,2,3],
+#          [4,5,6],
+#          [7,8,9]]
+# print(matrix)
+# print(matrix[0])
+# print(matrix[0][2])
+# for row in matrix:
+#     for item in row:
+#         print(item)
+
+
+
