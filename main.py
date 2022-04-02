@@ -357,5 +357,31 @@
 #     for item in row:
 #         print(item)
 
+###############################################      LIST             ########################################################################
+#
+# list1 = [1,2,3,4,5,8]
+# list1.append(9)
+#
+# list1.insert(0,0)
+# print(list1)
+#
+# list1.remove(8)
+# print(list1)
+# print(list1.count(2))
+#
+# list1.sort()
+# print(list1)
+#
+# list1.reverse()
+# print(list1)
 
 
+list= [1,2,3,4,5,6,3,5,6]
+list1=[]
+for item in list:
+    if item not in list1:
+        list1.append(item)
+print(list1)
+
+
+################################################     Tuple             #########################################
