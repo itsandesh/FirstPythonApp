@@ -427,3 +427,31 @@
 #     output +=Numbers.get(num ,"*")+" "
 # print(output)
 #
+
+ ###########################################################  Function   ###################################################################
+
+# def greet_user(name):
+#     print("Hi ")
+#     print(f"I am {name}")
+# print("start")
+# greet_user("sandy")
+# greet_user("Puri")
+# print("stop")
+
+#
+# def greet_user(f_name,l_name):
+#     print("Hi ")
+#     print(f"I am {f_name} {l_name}")
+# print("start")
+# greet_user("sandy","bhatt")
+# greet_user("Puri","pri")
+# print("stop")
+
+############################################### return type in function #############################################################
+
+# def square(number):
+#     return number*number
+#
+# num = 9
+# result = square(num)
+# print(result)
