@@ -310,7 +310,7 @@
 
 # import qrcode
 # img = qrcode.make("https://youtu.be/c0yEm1BtBmY")
-# img.show("BMS.jpg")
+# img.show("Techno_sandesh.jpg")
 
 #######################################################################################################################
 
@@ -345,8 +345,6 @@
 
 ###################################################    Matrix         ###################################################################
 
-
-
 # matrix =[[1,2,3],
 #          [4,5,6],
 #          [7,8,9]]
@@ -376,14 +374,14 @@
 # print(list1)
 
 
-list= [1,2,3,4,5,6,3,5,6]
-list1=[]
-for item in list:
-    if item not in list1:
-        list1.append(item)
-print(list1)
+# list= [1,2,3,4,5,6,3,5,6]
+# list1=[]
+# for item in list:
+#     if item not in list1:
+#         list1.append(item)
+# print(list1)
 
-################################################     Tuple             ######################################################################
+################################################     Tuple          ######################################################################
 
 # tuple = (1,2,3,4,5)
 # print( tuple.index(2))
@@ -391,4 +389,41 @@ print(list1)
 # print(tuple.reverse())
 
 
-######################################################################################################################
+###############################################    Dictionary        ################################################################
+
+# customer = {
+#     "name": "ram",
+#     "age" : 20,
+#     "city" : "KTM"
+# }
+# print(customer)
+# print(customer["name"])
+# customer["name"] = "shyam"
+# print(customer["name"])
+# customer["lName"] = "kandariya"
+# print(customer)
+# print(customer.get("name"))
+# print(customer.get("phone_number",987654321))   # best way
+
+##############################################     Function in Dictionary      ##########################################################################
+
+# Numbers = {
+#     "0":"zero",
+#     "1": "one",
+#     "2":"two",
+#     "3":"Three",
+#     "4":"Four",
+#     "5":"five",
+#     "6":"six",
+#     "7":"seven",
+#     "8":"Eight",
+#     "9":"nine"
+# }
+#
+#
+# Number = input("Enter the numbers")
+# output=""
+# for num in Number:
+#     output +=Numbers.get(num ,"*")+" "
+# print(output)
+#
