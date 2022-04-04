@@ -334,7 +334,7 @@
 # for item in list1:
 #     print(item)
 #     # print(list1[item])
-
+#
 # list1 = [1,2,3,4,5,8]
 # max = 0
 # max = list1[0]
@@ -455,3 +455,61 @@
 # num = 9
 # result = square(num)
 # print(result)
+
+
+############################################################   Class  ###########################################################
+
+# class Point:
+#     def __init__(self ,x,y):
+#         self.x =x
+#         self.y =y
+#     def move(self):
+#         print("move")
+#     def draw(self):
+#         print("draw")
+#
+# point1 = Point(10,200)
+# # point1.move()
+# # point1.x = 10
+# point1.y = 20
+# # point2 = Point()
+# # point2.x = 10
+# # print(point2.x)
+# print(point1.x,point1.y)
+
+#######################################################     INHRITENCE #################################################################
+class Person :
+
+    def __init__(self,name):
+        self.name= name
+
+    def talk(self):
+        print(f"i am {self.name}")
+
+
+ram = Person("ram")
+ram.talk()
+
+shyam = Person("shyam")
+shyam.talk()
+
+
+
+class Mammel():
+    def walk(self):
+        print("walk")
+
+class Dog(Mammel):
+    def bark(self):
+        print("bark")
+
+class Cat(Mammel):
+    def meow(self):
+        print("meow")
+
+tommy = Dog()
+tommy.walk()
+
+tom = Cat()
+tom.meow()
+tom.walk()
